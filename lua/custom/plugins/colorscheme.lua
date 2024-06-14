@@ -17,14 +17,23 @@ vim.cmd.colorscheme "nord"
 
 		end,
 	},
-	-- rose pine
+	-- darcula
 	{
-		'rose-pine/neovim',
+		'doums/darcula',
 		lazy = false,
 		priority = 1000,
 		config = function()
 
 		end,
+	},
+	-- falcon
+	{
+		'fenetikm/falcon',
+		lazy = false,
+		priority = 1000,
+		config = function()
+
+		end
 	},
 	-- poimandres
 	{
