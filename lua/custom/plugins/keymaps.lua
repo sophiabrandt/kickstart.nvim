@@ -22,7 +22,5 @@ return {
   -- insert mode
   vim.api.nvim_set_keymap('i', '<c-e>', '<c-o>$', { silent = true, noremap = true, desc = 'Jump to end of line' }),
   vim.api.nvim_set_keymap('i', '<c-a>', '<c-o>^', { silent = true, noremap = true, desc = 'Jump to start of line' }),
-  vim.api.nvim_set_keymap('i', 'faf', '=>', { silent = true, noremap = true, desc = 'Fat arrow function' }),
-  vim.api.nvim_set_keymap('i', 'aaf', '->', { silent = true, noremap = true, desc = 'Normal arrow function' }),
   vim.api.nvim_command [[iabbrev <silent> diy <C-R>=strftime("%Y-%m-%dT%H:%M:%S")<CR>]],
 }
