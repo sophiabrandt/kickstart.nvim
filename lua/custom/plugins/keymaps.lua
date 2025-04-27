@@ -13,6 +13,7 @@ return {
   vim.api.nvim_set_keymap('n', '<leader>X', ':<C-u>%bd<bar>e#<bar>bd#<CR>', { silent = true, noremap = true, desc = 'Close all buffers except current one' }),
   vim.api.nvim_set_keymap('n', '[s', ':bprevious<CR>', { silent = true, noremap = true, desc = 'Previous buffer' }),
   vim.api.nvim_set_keymap('n', ']s', ':bnext<CR>', { silent = true, noremap = true, desc = 'Next buffer' }),
+  vim.api.nvim_set_keymap('n', 'gh', '<C-W>d', { silent = true, desc = 'Show inline error' }),
   vim.api.nvim_set_keymap(
     'n',
     '<localleader>g',
