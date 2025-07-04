@@ -12,9 +12,12 @@ return {
       vim.cmd.colorscheme 'xcodedark'
     end,
     set_light_mode = function()
-      vim.api.nvim_set_option_value('background', 'light', {})
-      vim.cmd.colorscheme 'xcodelight'
+      vim.cmd.colorscheme 'xcodedark'
     end,
+    -- set_light_mode = function()
+    --   vim.api.nvim_set_option_value('background', 'light', {})
+    --   vim.cmd.colorscheme 'xcodelight'
+    -- end,
     update_interval = 3000,
     fallback = 'dark',
   },
